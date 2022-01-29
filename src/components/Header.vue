@@ -2,6 +2,7 @@
   <div>
     <header>
       <h1>{{title}}</h1>
+      <p>{{list}}</p>
     </header>
   </div>
 </template>

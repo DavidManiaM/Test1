@@ -14,16 +14,10 @@
 
 <script>
 export default {
+  props: ['todos'],
   data () {
     return {
-      todos: [
-        {name: 'Clean the room', done: false},
-        {name: 'Wash the dishes', done: false},
-        {name: 'Go for a walk', done: false},
-        {name: 'Go to school', done: false},
-        {name: 'Do homework', done: false},
-        {name: 'Relax', done: false}
-      ]
+
     }
   }
 }

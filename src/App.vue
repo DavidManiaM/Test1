@@ -1,7 +1,7 @@
 <template>
   <div>
     <app-header></app-header>
-    <app-content></app-content>
+    <app-content v-bind:todos="list"></app-content>
     <app-footer></app-footer>
   </div>
 </template>
@@ -19,7 +19,14 @@ export default {
   },
   data () {
     return {
-
+      list: [
+        {name: 'Clean the room', done: false},
+        {name: 'Wash the dishes', done: false},
+        {name: 'Go for a walk', done: false},
+        {name: 'Go to school', done: false},
+        {name: 'Do homework', done: false},
+        {name: 'Relax', done: false}
+      ]
     }
   }
 }
